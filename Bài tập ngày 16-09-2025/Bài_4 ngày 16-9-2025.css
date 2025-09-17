@@ -1,0 +1,132 @@
+.input-text {
+    width: 99%;
+    height: 20px;
+    border: gray 1.2px solid ;    
+    border-top: 2.2px black solid;
+    margin-block-start: 2%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.submit:hover{
+    display: end inline-block;
+    border: solid orange 3px;
+    background-color: orange;
+    color: black;
+}
+.submit{
+    display: end inline-block;
+    border: solid black 3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.cancel:hover{
+    display: end inline-block;
+    border: solid orange 3px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+.cancel {
+    display: end inline-block;
+    border: solid black 3px;
+    background-color: black;
+    color: white;
+}
+
+.textarea {
+    width: 99%;
+    height: 100px;
+    border: black 1px solid ;
+    font-size: 15px;
+    font-weight: bold;
+}
+.photo {
+    width: 100%;
+    margin-top: 30px;
+}
+.input-file {
+    height: 100%;
+    color: black;
+    width: 100%;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.button-change {
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    padding-bottom: -10px;
+}
+.button-change:hover {
+    color: orange;
+    cursor: pointer;
+}
+.arrow {
+    background-color: black;
+    padding: 3px;
+    color: white;
+    border: solid black 1px;
+}
+.arrow:hover {
+    background-color: orange;
+    border: solid orange 1px;
+    cursor: pointer;
+}
+.input-date {
+    width: 99.5%;
+    height: 20px;
+    border: gray 1.2px solid ;    
+    border-top: 2.2px black solid;
+    margin-block-start: 2%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-select {
+    width: 30%;
+    height: 100%;
+    border: gray 1.2px solid ;    
+    border-top: 2.2px black solid;
+    margin-block-start: 2%;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.input-captcha {
+    width: 99%;
+    height: 20px;
+    border: gray 1.2px solid ;    
+    border-top: 2.2px black solid;
+    margin-block-start: -1%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.help {
+    font-weight: bold;
+    color: black;
+}
+.help:hover {
+    color: orange;
+    cursor: pointer;
+}
+.help-text {
+    display: none;
+}
+.help:hover + .help-text {
+    display: block;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    width: 150px;
+    padding: 15px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 999;
+    margin-top: 10px;
+}
