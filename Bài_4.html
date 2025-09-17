@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bài_4.css">
+    <style>
+        th {
+            text-align: left;
+            padding-right: 10px;
+        }
+        hr {
+            border: 1px solid black;
+            margin-top: -20px;
+        }
+
+        div {
+            margin-top: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 40%;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr><th><h3>Basic Info</h3></th></tr>
+            <tr><td colspan="2"><hr></td></tr>
+            <tr>
+                <th>Employee ID</th>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td>Dodsworth</td>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th rowspan="4">Gender</th>
+                <td><input type="radio"><label for="">Male</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio"><label>Female</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio"><label>XXX</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio"><label>ZZZ</label></td>
+            </tr>
+            <tr>
+                <th>Title</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th>Suffix</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th>Birth Date</th>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th>Hire Date</th>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th>SSN # (if applicable)</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th>Reports To</th>
+                <td>
+                    <select name="" id="">
+                        <option value="">Buchanan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><th><h3>Contact Info</h3></th></tr>
+            <tr><td colspan="2"><hr></td></tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th>Region</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th>Postal Code</th>
+                <td><input type="text" class="input-text"></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+                    <select name="" id="">
+                        <option value="">Russian Federation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>US Home Phone</th>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th>Photo</th>
+                <td><input type="file"></td>
+            </tr>
+            <tr><th><h3>Optional Info</h3></th></tr>
+            <tr><td colspan="2"><hr></td></tr>
+            <tr>
+                <th>Notes</th>
+                <td><textarea name="" id="" class="textarea"></textarea></td>
+            </tr>
+        <tr>
+            <th rowspan="1" >Preferred Shift</th>
+            <td><input type="checkbox"><label for="">Regular</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox"><label for="">Gravy Yard</label></td>
+        </tr>
+        <tr>
+            <th>Active?</th>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <th>Are you human?</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><center><button>Click to change</button></center></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="text" class="input-text"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding-top: 40px;"><hr></td>
+        </tr>
+        <tr>
+            <td>
+                <button><</button>
+                <button>></button>
+            </td>
+            <td>
+                <button class="submit">Submit</button>
+                <button class="cancel">Cancel</button>
+            </td>
+        </tr>
+        </table>
+
+
+            
+        
+    </form>
+</body>
+</html>

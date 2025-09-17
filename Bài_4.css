@@ -1,0 +1,18 @@
+.input-text {
+    width: 100%;
+    height: 20px;
+}
+.submit {
+    margin-inline-start: 65%;
+}
+.cancel {
+    margin-left: 10px;
+}
+.textarea {
+    width: 100%;
+    height: 100px;
+}
+.photo {
+    width: 100%;
+
+}
